@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title | default: site.github.repository_name }}{% endif %}</title>
+		<meta name="description" content="{{ page.description }}">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/img/simpol-favicon.png">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/simpol-favicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/simpol-favicon.png" sizes="16x16">
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+    <meta name="viewport" content="width=device-width">
+		<link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
+
+		{% feed_meta %}
+
+		<!-- Uncomment to be indexed in search engines
+		<meta name="robots" content="index, follow"> -->
+  </head>
+  <!-- Simpol / Simpol Theme
+        Coded by & Copyright © reserved by Scott Mathson and Mathson Design, LLC
+        More information can be found at https://mathsondesignco.com/simpol
+        Theme based off of Scott's personal site: https://scottmathson.me -->
+  <body>
+      <nav>
+        <a href="{{ site.baseurl }}/">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        </a>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p class="smaller mobile-hide">View the <a href="{{ site.github.repository_url }}">Repo on GitHub {{ github_name }}</a>
+          <br>
+          Download the <a href="{{ site.github.repository_url }}/archive/1.0.zip">Beta release</a>
+      	</p>
+      </nav>
+    <div class="main">
+
+      {{ content }}
+
+    </div>
+
+    <footer>
+      <p class="inline-block">&copy; Mathson Design, LLC &bull; <a href="https://github.com/simpol-theme/">Simpol Theme</a></p>
+    </footer>
+
+
+		{% if site.google_tracking_id %}
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', '{{ site.google_tracking_id }}', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		{% endif %}
+  </body>
+</html>

@@ -1,0 +1,15 @@
+# Site settings
+title: Simpol Theme
+description: "Minimal Jekyll theme for Github Pages."
+baseurl: ""
+
+google_tracking_id: ENTER GOOGLE ID Here, Starts with "UA"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 12
+exclude: ["package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]

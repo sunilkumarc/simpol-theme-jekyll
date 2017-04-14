@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="page-wrapper ">
+  <!-- Post Header -->
+	<h1>{{ page.title }}</h1>
+	{% if page.subtitle %}
+	<h3 class="post-subheading">{{ page.subtitle }}</h3>
+	{% endif %}
+	<span class="mono smaller">Pushed live on {{ page.date | date: "%B %-d, %Y" }}</span>
+
+  <!-- Post Content -->
+  <article>
+
+	  {{ content }}
+
+    <ul class="pager flex">
+        {% if page.previous.url %}
+        <li class="previous">
+            <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+        </li>
+        {% endif %}
+        {% if page.next.url %}
+        <li class="next">
+            <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+        </li>
+        {% endif %}
+    </ul><!-- end .pager -->
+  </article>
+</div><!-- end .page-wrapper -->
