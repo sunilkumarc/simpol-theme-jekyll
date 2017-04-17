@@ -2,7 +2,13 @@ Simpol is a minimal, clean Jekyll theme for Github Pages.
 
 ## Focus on the writing, the content
 
-Complete with
+[Demo](https://simpol-theme.github.io/simpol-theme-jekyll/)
+
+### Screenshots of Simpol Theme
+
+![Simpol Theme screenshots](https://raw.githubusercontent.com/simpol-theme/simpol-theme-jekyll/master/img/simpol-theme-screenshot.jpg)
+
+### Features
 
 * Index and Posts default layouts
 * Head with optimized metadata (titles and descriptions)
@@ -11,15 +17,21 @@ Complete with
 * Sitemap.xml and 404 Pages
 * Gemfile, Using Jekyll, Jekyll Paginate and Feed
 
-Beta 1.1 Release: [Download the latest release](https://github.com/simpol-theme/simpol-theme-jekyll/releases)
+### Download
+
+Beta Release: [Download the latest release](https://github.com/simpol-theme/simpol-theme-jekyll/releases)
 
 Or you can clone this repo.
 
 `git clone https://github.com/simpol-theme/simpol-theme-jekyll.git`
 
+Getting started. Learn about [adding new posts with the Simpol Theme](https://simpol-theme.github.io/simpol-theme-jekyll/2017-04-16-writing-new-post)
+
 Enjoy!
 
 ---
+### Credits
+
 Simpol Theme is designed, developed, and maintained by Scott Mathson, Mathson Design Co.
 
 _Simpol Theme is inspired by other minimal themes/blog like Zen Habits (.net)_
@@ -28,8 +40,10 @@ _Simpol Theme is inspired by other minimal themes/blog like Zen Habits (.net)_
 
 ---
 
-### Helpful Resources
+### Resources
 
-* [Markdown reference/cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [Writing posts with Jekyll](https://jekyllrb.com/docs/posts/)
+Check out these blog posts for help in getting started blogging with Simpol Theme. Within the posts are even more resources to help you.
+
+* [Adding New Posts, Simpol Blogging](https://simpol-theme.github.io/simpol-theme-jekyll/2017-04-16-writing-new-post)
+* [Markdown Overview, Simpol Blogging](https://simpol-theme.github.io/simpol-theme-jekyll/2017-04-15-blogging-in-markdown-overview)
 * [Deploy Jekyll to GitHub Pages](https://jekyllrb.com/docs/github-pages/)

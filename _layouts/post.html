@@ -8,7 +8,9 @@ layout: default
 	{% if page.subtitle %}
 	<h3 class="post-subheading">{{ page.subtitle }}</h3>
 	{% endif %}
-	<span class="mono smaller">Pushed live on {{ page.date | date: "%B %-d, %Y" }}</span>
+	<p class="mono smaller">Published on {{ page.date | date: "%B %-d, %Y" }} By {{ page.author }}
+	</p>
+	<hr>
 
   <!-- Post Content -->
   <article>
