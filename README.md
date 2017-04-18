@@ -28,6 +28,8 @@ Or you can clone the repo.
 
 `git clone https://github.com/simpol-theme/simpol-theme-jekyll.git`
 
+I have developed this Theme as a Ruby Gem, check out the [repo docs here](https://github.com/simpol-theme/simpol-theme-jekyll/tree/rubygem#readme) or download the latest release from [rubygems.org](https://rubygems.org/gems/simpol-jekyll-theme)
+
 Getting started. **Learn how truly simple it is to get started** [adding new posts with the Simpol Theme](https://simpol-theme.github.io/simpol-theme-jekyll/2017/04/16/writing-new-post/)
 
 Enjoy!
