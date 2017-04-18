@@ -1,20 +1,25 @@
 # Site settings
-title: Simpol Theme
-subtitle: #enter tagline in the quotation marks, deleting this note "..."
-description: #enter description in the quotation marks, deleting this note "..."
+  # Note: after inputting your content into the "" you may need to stop and restart jekyll server for changes to take effect.
+
+title: "TITLE GOES HERE"
+subtitle: "SUBTITLE GOES HERE"
+description: "DESCRIPTION GOES HERE"
 baseurl: ""
 
 # Index settings
-greeting: #enter greeting in the quotation marks, deleting this note ""
+greeting: #deletme "GREETING GOES HERE"
+subgreetingone: #deletme "SUBGREETING GOES HERE"
+subgreetingtwo: #deletme "SUBGREETING GOES HERE"
 
 google_tracking_id: # ENTER GOOGLE ID Here, Starts with "UA"
 
 # Build settings
+gems: [jekyll-paginate, jekyll-feed]
+
+theme: simpol-jekyll-theme
+
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 12
 exclude: ["package.json","README.md"]
-
-gems: [jekyll-paginate, jekyll-feed]
-theme: simpol-jekyll-theme
