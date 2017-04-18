@@ -8,16 +8,16 @@ layout: default
 			<div class="sm-1-col md-2-col lg-2-col pull-left">
 				<h1>Hello, I'm Simpol.</h1>
 			</div><!-- end .sm-1-col lg-2-col pull-left -->
-			<div class="sm-1-col md-2-col lg-2-col pull-right">
+			<div class="sm-1-col md-2-col lg-2-col pull-right small-mobile-hide">
 				<img src="{{ site.baseurl }}/img/simpol-logo-x800.jpg" alt="Simpol Theme">
-			</div><!-- end. sm-1-col lg-2-col pull-right -->
-		</div>
+			</div><!-- end. sm-1-col lg-2-col pull-right mobile-hide -->
+		</div><!-- end .top-headline-photo -->
 
 		<div class="sm-1-col md-2-col lg-2-col pull-left">
-			<p>Jekyll theme all about the content.</p>
+			<p>Jekyll theme that's all about the content.</p>
 		</div><!-- end .sm-1-col lg-2-col pull-left -->
 		<div class="sm-1-col md-2-col lg-2-col pull-right">
-			<p>Minimal, clean blogging.</p>
+			<p>Minimal, clean, simple blogging.</p>
 		</div><!-- end. sm-1-col lg-2-col pull-right -->
 	</div><!-- end .inner-wrapper #mini-about -->
 
@@ -30,10 +30,10 @@ layout: default
 			<div class="sm-1-col lg-onequarter-col pull-left">
 				{% if post.header-img %}
 					<a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration:none;">
-						<img class="post-header-img" src="{{ site.baseurl }}/{{ post.header-img }}" alt="">
+						<img class="post-header-img" src="{{ site.baseurl }}/{{ post.header-img }}" alt="Simpol Theme">
 					</a>
 				{% endif %}
-			</div>
+			</div><!-- end .sm-1-col lg-onequarter-col pull-left -->
 			<div class="sm-1-col lg-threequarter-col inline-block">
 				<a href="{{ post.url | prepend: site.baseurl }}">
 					<h2>{{ post.title }}</h2>
@@ -46,30 +46,26 @@ layout: default
 						<br>
 						By {{ post.author }}
 					</p>
-				</div>
+				</div><!-- end .sm-1-col lg-2-col pull-left -->
 				<div class="sm-1-col lg-2-col inline-block">
 					<a href="{{ post.url | prepend: site.baseurl }}">
 						<p class="post-cta btn-primary">Read more</p>
 					</a>
-				</div>
-			</div>
+				</div><!-- end .sm-1-col lg-1-col inline-block -->
+			</div><!-- end .sm-1-col lg-threequarter-col inline-block -->
 		</div><!-- end .post-preview -->
 		{% endfor %}
 
 		<!-- Pager -->
 		{% if paginator.total_pages > 1 %}
-		<ul class="pager">
+		<div class="pager">
 	    {% if paginator.previous_page %}
-	    <li class="previous">
-	        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-	    </li>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous btn-primary">&larr; Newer Posts</a>
 	    {% endif %}
 	    {% if paginator.next_page %}
-	    <li class="next">
-	        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-	    </li>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn-primary">Older Posts &rarr;</a>
 	    {% endif %}
-		</ul>
+		</div><!-- end .pager -->
 		{% endif %}
 	</div><!-- end .inner-wrapper -->
 </div><!-- end .page-wrapper -->

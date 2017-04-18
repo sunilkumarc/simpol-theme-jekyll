@@ -6,6 +6,8 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title | default: site.github.repository_name }}{% endif %}</title>
 		<meta name="description" content="{{ page.description }}">
 
+    <meta name="robots" content="index, follow">
+
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/img/simpol-favicon.png">
     <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/simpol-favicon.png" sizes="32x32">
     <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/simpol-favicon.png" sizes="16x16">
@@ -15,9 +17,6 @@
 		<link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
 
 		{% feed_meta %}
-
-		<!-- Uncomment to be indexed in search engines
-		<meta name="robots" content="index, follow"> -->
   </head>
   <!-- Simpol Theme - Download at: https://github.com/simpol-theme/simpol-theme-jekyll/releases
         Coded by & Copyright © reserved by Mathson Design, LLC and Scott Mathson
@@ -29,10 +28,15 @@
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <p class="smaller mobile-hide">View the <a href="{{ site.github.repository_url }}">Repo on GitHub {{ github_name }}</a>
+        <p class="smaller mobile-hide">
+          <a href="{{ site.github.repository_url }}">GitHub Repo</a>
+          &bull;
+          <a href="{{ site.github.repository_url }}/fork">Fork</a>
+          &bull;
+          <a href="{{ site.github.repository_url }}/releases">Download</a>
           <br>
-          Download the <a href="{{ site.github.repository_url }}/archive/1.2.zip">Beta release</a>
-      	</p>
+          Support the maker <a href="https://paypal.me/mathson/5" target="_blank">tip $5</a>
+        </p>
       </nav>
     <div class="main">
 
@@ -41,6 +45,15 @@
     </div>
 
     <footer>
+      <p class="smaller mobile-only-show">
+        <a href="{{ site.github.repository_url }}">GitHub</a>
+        &bull;
+        <a href="{{ site.github.repository_url }}/fork">Fork</a>
+        &bull;
+        <a href="{{ site.github.repository_url }}/releases">Download</a>
+        &bull;
+        <a href="https://paypal.me/mathson/5" target="_blank">Tip $5</a>
+      </p>
       <p class="inline-block">&copy; Mathson Design, LLC &bull; <a href="https://github.com/simpol-theme/">Simpol Theme</a></p>
     </footer>
 

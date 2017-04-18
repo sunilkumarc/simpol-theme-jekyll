@@ -156,7 +156,7 @@ code {
 \*--------------------------------*/
 @media (min-width: 320px) {
   #mini-about {
-    margin: 0em 0em 4em 0em;
+    margin: 0em 0em 3em 0em;
   }
   #mini-about .sm-1-col h1 {
     font-size: 2.1em;
@@ -173,7 +173,7 @@ code {
   .smaller {
   	font-size: 0.75em;
   }
-  .main, .post-main, header {
+  .main, header {
       padding: 2.5%;
       margin: 4%;
 
@@ -214,6 +214,12 @@ code {
   .mobile-hide {
     display: none;
   }
+  .small-mobile-hide {
+    display: none;
+  }
+  .mobile-only-show {
+    display: block;
+  }
   .post-cta {
   	float: none;
     width: 30%;
@@ -223,7 +229,6 @@ code {
   #mini-about .pull-left {
     margin-bottom: -1%;
   }
-
   .md-2-col {
     width: 48%;
   }
@@ -233,13 +238,21 @@ code {
   .lg-threequarter-col {
     width: 48%;
   }
-
+  .small-mobile-hide {
+    display: block;
+  }
+  .post-header-img {
+    padding-top: 10%;
+  }
   .post-cta {
   	float: right;
   }
 }
 @media (min-width: 1060px) {
-  .main, .post-main {
+  #mini-about {
+    margin: 1em 0em 4em 0em;
+  }
+  .main {
       padding: 2%;
       margin: 0 5% 0 30%;
   }
@@ -279,6 +292,12 @@ code {
   }
   .mobile-hide {
     display: block;
+  }
+  .small-mobile-hide {
+    display: block;
+  }
+  .mobile-only-show {
+    display: none;
   }
 }
 .page-wrapper {
@@ -321,9 +340,6 @@ footer p {
   content: "";
   display: table;
   clear: both;
-}
-.pager {
-  list-style-type: none;
 }
 .previous {
   margin-right: 5%;

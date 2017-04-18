@@ -19,7 +19,7 @@ Simpol is a minimal, clean Jekyll theme for Github Pages.
 
 ### Download
 
-Beta Release: [Download the latest release](https://github.com/simpol-theme/simpol-theme-jekyll/releases)
+Latest Release: [Download the latest release](https://github.com/simpol-theme/simpol-theme-jekyll/releases)
 
 Or you can clone this repo.
 
