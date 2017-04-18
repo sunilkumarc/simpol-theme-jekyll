@@ -1,6 +1,6 @@
 # Site settings
 title: Simpol Theme
-description: "Minimal Jekyll theme for Github Pages."
+description: "Minimal Jekyll theme for Github Pages. Focus on the writing, the content."
 baseurl: ""
 
 google_tracking_id: ENTER GOOGLE ID Here, Starts with "UA"
