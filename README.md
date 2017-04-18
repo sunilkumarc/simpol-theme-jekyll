@@ -41,6 +41,12 @@ The clean design and feel is inspired by other minimal themes and blogs out ther
 
 [Scott on GitHub](https://github.com/scottdesdev) | [Scott on Twitter](https://twitter.com/scottmathson)
 
+#### Sites Using Simpol Theme
+
+(or slight variations, thereof)
+
+* [scottmathson.me](https://scottmathson.me "Scott Mathson, Web Designer & Developer, personal website")
+
 ---
 
 ### Resources
