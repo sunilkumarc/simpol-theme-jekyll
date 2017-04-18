@@ -1,52 +1,47 @@
-# Introducing Simpol Theme
+# simpol-jekyll-theme
 
-Simpol is a minimal, clean Jekyll theme for Github Pages.
+Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes` and your sass in `_sass`. To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
 
->### Focus on the writing, the content.
+TODO: Delete this and the text above, and describe your gem
 
-[Demo](https://simpol-theme.github.io/simpol-theme-jekyll/)
+## Installation
 
-[Fork](https://github.com/simpol-theme/simpol-theme-jekyll/fork) or [Download](https://github.com/simpol-theme/simpol-theme-jekyll/releases)
+Add this line to your Jekyll site's `Gemfile`:
 
-![Simpol Theme screenshots](https://raw.githubusercontent.com/simpol-theme/simpol-theme-jekyll/master/img/simpol-theme-screenshot.jpg)
+```ruby
+gem "simpol-jekyll-theme"
+```
 
-### Features
+And add this line to your Jekyll site's `_config.yml`:
 
-* Minimal design and feel
-* Clean, default layouts for pages and posts
-* Head with optimized metadata (titles and descriptions)
-* Simple Google Analytics integration: _simply input your tracking ID in config file_
-* Single, yet powerful CSS Stylesheet (3 breakpoints/media queries)
-* Sitemap and 404 Page
-* Gems: Using Jekyll, Jekyll Paginate and Feed
+```yaml
+theme: simpol-jekyll-theme
+```
 
-### Installing: Download, Fork, or Clone
+And then execute:
 
-Simpol Theme is here! [Fork](https://github.com/simpol-theme/simpol-theme-jekyll/fork) or [Download the latest release](https://github.com/simpol-theme/simpol-theme-jekyll/releases)
+    $ bundle
 
-Or you can clone the repo.
+Or install it yourself as:
 
-`git clone https://github.com/simpol-theme/simpol-theme-jekyll.git`
+    $ gem install simpol-jekyll-theme
 
-Getting started. **Learn how truly simple it is to get started** [adding new posts with the Simpol Theme](https://simpol-theme.github.io/simpol-theme-jekyll/2017/04/16/writing-new-post/)
+## Usage
 
-Enjoy!
+TODO: Write usage instructions here. Describe your available layouts, includes, and/or sass.
 
----
-### Credits
+## Contributing
 
-Simpol Theme is designed, developed, and maintained by Scott Mathson, Mathson Design Co.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-The clean design and feel is inspired by other minimal themes and blogs out there.
+## Development
 
-[Scott on GitHub](https://github.com/scottdesdev) | [Scott on Twitter](https://twitter.com/scottmathson)
+To set up your environment to develop this theme, run `bundle install`.
 
----
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
-### Resources
+When your theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
 
-Check out these blog posts for help in getting started blogging with Simpol Theme. Within the posts are even more resources to help you.
+## License
 
-* [Adding New Posts, Simpol Blogging](https://simpol-theme.github.io/simpol-theme-jekyll/2017/04/16/writing-new-post/)
-* [Markdown Overview, Simpol Blogging](https://simpol-theme.github.io/simpol-theme-jekyll/2017/04/15/blogging-in-markdown-overview/)
-* [Deploy Jekyll to GitHub Pages](https://jekyllrb.com/docs/github-pages/)
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
