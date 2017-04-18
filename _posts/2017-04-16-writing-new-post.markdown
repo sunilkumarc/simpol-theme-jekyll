@@ -28,10 +28,10 @@ As for the Front Matter, Simpol Theme incorporates and includes a few options. _
 ```
 	---
 	layout:     post
-	title:      "Writing a New Post"
-	description: "Let's talk about blogging with Jekyll, in markdown, with the Simpol Theme."
+	title:      "Simpol Blogging, Adding New Posts"
+	description: "How to add your first post. Simpol Theme blogging overview."
 	date:       2017-04-16 17:00:00
 	author:     "Scott Mathson"
-	header-img: img/woman-typing-macbook.jpg
+	header-img: img/posts/header-img/woman-typing-macbook.jpg
 	---
 ```
