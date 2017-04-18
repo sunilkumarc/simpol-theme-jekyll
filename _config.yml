@@ -14,3 +14,4 @@ paginate: 12
 exclude: ["package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
+theme: simpol-jekyll-theme
