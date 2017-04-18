@@ -4,7 +4,7 @@ subtitle: "Focus on the writing, the content."
 description: "Minimal Jekyll theme for Github Pages. Focus on the writing, the content."
 baseurl: ""
 
-google_tracking_id: ENTER GOOGLE ID Here, Starts with "UA"
+google_tracking_id: # ENTER GOOGLE ID Here, Starts with "UA"
 
 # Build settings
 markdown: kramdown
