@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: page
 ---
 
 <div class="page-wrapper">
 	<div class="inner-wrapper" id="mini-about">
 		<div class="top-headline-photo">
 			<div class="sm-1-col md-2-col lg-2-col pull-left">
-				<h1>Hello, I'm Simpol.</h1>
+				<h1>{% if site.greeting %}{{ site.greeting }}{% else %}{{ "Hello, I'm Simpol." }}{% endif %}
+				</h1>
 			</div><!-- end .sm-1-col lg-2-col pull-left -->
 			<div class="sm-1-col md-2-col lg-2-col pull-right small-mobile-hide">
 				<img src="{{ site.baseurl }}/img/simpol-logo-x800.jpg" alt="Simpol Theme">
@@ -14,10 +15,12 @@ layout: default
 		</div><!-- end .top-headline-photo -->
 
 		<div class="sm-1-col md-2-col lg-2-col pull-left">
-			<p>Jekyll theme that's all about the content.</p>
+			<p>{% if site.subgreetingone %}{{ site.subgreetingone }}{% else %}{{ "Jekyll theme that's all about the content." }}{% endif %}
+			</p>
 		</div><!-- end .sm-1-col lg-2-col pull-left -->
 		<div class="sm-1-col md-2-col lg-2-col pull-right">
-			<p>Minimal, clean, simple blogging.</p>
+			<p>{% if site.subgreetingone %}{{ site.subgreetingone }}{% else %}{{ "Minimal, clean, simple blogging." }}{% endif %}
+			</p>
 		</div><!-- end. sm-1-col lg-2-col pull-right -->
 	</div><!-- end .inner-wrapper #mini-about -->
 
@@ -56,7 +59,6 @@ layout: default
 		</div><!-- end .post-preview -->
 		{% endfor %}
 
-		<!-- Pager -->
 		{% if paginator.total_pages > 1 %}
 		<div class="pager">
 	    {% if paginator.previous_page %}

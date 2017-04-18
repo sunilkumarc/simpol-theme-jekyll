@@ -1,0 +1,17 @@
+<nav>
+	<a href="{{ site.baseurl }}/">
+		<h1>{% if site.title %}{{ site.title }}{% else %}{{ site.title | default: site.github.repository_name }}{% endif %}
+		</h1>
+	</a>
+	<p>{% if site.subtitle %}{{ site.subtitle }}{% else %}{{ site.subtitle | default: site.github.project_tagline }}{% endif %}
+	</p>
+	<p class="smaller mobile-hide">
+		<a href="{{ site.github.repository_url }}#readme">GitHub Repo</a>
+		&bull;
+		<a href="{{ site.github.repository_url }}/fork">Fork</a>
+		&bull;
+		<a href="{{ site.github.repository_url }}/releases">Download</a>
+		<br>
+		Support the maker <a href="https://paypal.me/mathson/5" target="_blank">tip $5</a>
+	</p>
+</nav>

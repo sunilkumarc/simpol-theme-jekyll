@@ -1,16 +1,23 @@
 # Site settings
-title: Simpol Theme
+  # Note: after inputting your content into the "" you may need to stop and restart jekyll server for changes to take effect.
+
+title: "Simpol Theme"
 subtitle: "Focus on the writing, the content."
 description: "Minimal Jekyll theme for Github Pages. Focus on the writing, the content."
 baseurl: ""
 
-google_tracking_id: ENTER GOOGLE ID Here, Starts with "UA"
+# Index settings
+greeting: #deletme "GREETING GOES HERE"
+subgreetingone: #deletme "SUBGREETING GOES HERE"
+subgreetingtwo: #deletme "SUBGREETING GOES HERE"
+
+google_tracking_id: # ENTER GOOGLE ID Here, Starts with "UA"
 
 # Build settings
+gems: [jekyll-paginate, jekyll-feed]
+
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 12
 exclude: ["package.json","README.md"]
-
-gems: [jekyll-paginate, jekyll-feed]
