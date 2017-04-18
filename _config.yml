@@ -1,8 +1,11 @@
 # Site settings
 title: Simpol Theme
-subtitle: "Focus on the writing, the content."
-description: "Minimal Jekyll theme for Github Pages. Focus on the writing, the content."
+subtitle: #enter tagline in the quotation marks, deleting this note "..."
+description: #enter description in the quotation marks, deleting this note "..."
 baseurl: ""
+
+# Index settings
+greeting: #enter greeting in the quotation marks, deleting this note ""
 
 google_tracking_id: # ENTER GOOGLE ID Here, Starts with "UA"
 

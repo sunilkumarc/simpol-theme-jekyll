@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Post with Images"
-description: "An example of a blog post in Simpol, with image content."
+title:      "Post with Images & Text"
+description: "An example of a blog post in Simpol, with image and text content."
 date:       2017-04-13 17:00:00
 author:     "Scott Mathson"
 header-img: img/posts/header-img/dog-in-blanket.jpg
