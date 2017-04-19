@@ -24,13 +24,36 @@ Simpol is a minimal, clean Jekyll theme for Github Pages.
 
 [Fork](https://github.com/simpol-theme/simpol-theme-jekyll/fork) or [Download](https://github.com/simpol-theme/simpol-theme-jekyll/releases)
 
-Add this line to your Jekyll site's `Gemfile`:
+In a folder that contains an empty Gemfile, run:
+
+    $ gem install simpol-jekyll-theme
+
+Then, add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
 gem "simpol-jekyll-theme", "1.0.3"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+And then execute:
+
+    $ bundle
+
+Then, to explore the theme's folders and files (it comes with 3 blog posts, examples and instructions, an index page, 404 page, images, and more), run this command in your terminal:
+
+```
+On Mac:
+  open $(bundle show simpol-jekyll-theme)
+On Windows:
+  explorer /usr/local/lib/ruby/gems/2.3.0/gems/simpol-jekyll-theme-1.0.3
+```
+
+Next, copy these files over to your original folder with the Gemfile (and now Gemfile.lock). *Start hacking away, creating your personal site, entering your information in the `_config.yml`, etc.*
+
+To preview your site, `run bundle exec jekyll serve` and open your browser at http://localhost:4000.
+
+#### Already have a Jekyll site ready?
+
+Then, execute the Gem install above and add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
 theme: simpol-jekyll-theme
@@ -40,17 +63,13 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install simpol-jekyll-theme
-
-Or you can simply clone the repo.
+Or you can simply clone or [fork the repo](https://github.com/simpol-theme/simpol-theme-jekyll/fork) or [Download](https://github.com/simpol-theme/simpol-theme-jekyll/releases).
 
 `git clone https://github.com/simpol-theme/simpol-theme-jekyll.git`
 
-To preview your site, `run bundle exec jekyll serve` and open your browser at http://localhost:4000.
+**So many ways and options to get started!**
 
-Getting started. **Learn how truly simple it is to get started** [adding new posts with the Simpol Theme](https://simpol-theme.github.io/simpol-theme-jekyll/2017/04/16/writing-new-post/)
+**Learn how truly simple it is to get started** [adding new posts with the Simpol Theme](https://simpol-theme.github.io/simpol-theme-jekyll/2017/04/16/writing-new-post/)
 
 Enjoy!
 
