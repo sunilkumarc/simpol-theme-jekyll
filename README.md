@@ -27,7 +27,7 @@ Simpol is a minimal, clean Jekyll theme for Github Pages.
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "simpol-jekyll-theme", "1.0.1"
+gem "simpol-jekyll-theme", "1.0.3"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
